@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+ 
+.top{
+    font-family: 'Jura', sans-serif;
+    color:black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 10px;
+    font-size: 14px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.top > ul{
+    display: flex;
+    font-size: 23px;
+flex-direction: row;
+justify-content: space-evenly;
+width: 35%;
+list-style: none;
+;
+}
+.top > img{
+    width:  150px;
+    height: auto;
+    align-items: center;
+    padding-left: 10px;
+}
+.music4Everyone{
+    font-family: 'Roboto', sans-serif; 
+    background-image: url("./background1.png");
+    font-size: 65px;
+    background-size: 100%;
+    background-position: center;
+    height: 750px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
